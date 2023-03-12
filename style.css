@@ -1,0 +1,55 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  /*This code creates a header with a blue background, white text, and a bold sans-serif font. The text is centered within the header and there is a padding of 1em around the text. The CSS is stored in a separate file, "style.css", and is linked to the HTML file.
+  
+  */
+  
+  
+  
+
+
+.container{
+    padding: 10px;
+    border: 1px solid #bcb9b8;
+    width: 40%;
+    margin: auto;
+}
+.container .input{
+    width: 87%;
+    height: 20px;
+}
+.container .btn{
+    width:50px;
+    height: 25px;
+}
+.container ul{
+    list-style: none;
+    padding: 0px;
+}
+.container li{
+    color: red;
+}
+
+.container li a{
+    float: right;
+    color: #000;
+    text-decoration:none;
+    font-weight:bold;
+}
+.container #error{
+    color: red;
+    font-size: 14px;
+}
